@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Farel Bayuputra Irawan, mahasiswa Teknik Informatika Universitas Muhammadiyah Malang.">
+  <title>Farel Bayuputra Irawan | Portofolio Mahasiswa Teknik Informatika</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#pengalaman">Pengalaman</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="hero__text">
+        <p class="prompt" aria-hidden="true">farel@umm:~$ whoami<span class="cursor"></span></p>
+        <h1>Farel Bayuputra Irawan</h1>
+        <p class="hero__role">Mahasiswa Teknik Informatika, Universitas Muhammadiyah Malang</p>
+        <p class="hero__lead">Sedang mendalami jaringan komputer dan keamanan siber.</p>
+        <p class="hero__actions">
+          <a class="button" href="#proyek">Lihat proyek</a>
+          <a class="button button--ghost" href="#kontak">Hubungi saya</a>
+        </p>
+      </div>
+
+      <!-- Diagram topologi: dekoratif, berisi teknologi yang dipakai -->
+      <svg class="topology" viewBox="0 0 400 320" aria-hidden="true" focusable="false">
+        <g class="links">
+          <line x1="200" y1="160" x2="70" y2="70"/>
+          <line x1="200" y1="160" x2="330" y2="70"/>
+          <line x1="200" y1="160" x2="60" y2="250"/>
+          <line x1="200" y1="160" x2="340" y2="250"/>
+          <line x1="200" y1="160" x2="200" y2="40"/>
+          <line x1="200" y1="160" x2="200" y2="285"/>
+          <line class="links__mesh" x1="70" y1="70" x2="200" y2="40"/>
+          <line class="links__mesh" x1="200" y1="40" x2="330" y2="70"/>
+          <line class="links__mesh" x1="60" y1="250" x2="200" y2="285"/>
+          <line class="links__mesh" x1="200" y1="285" x2="340" y2="250"/>
+        </g>
+        <g class="nodes">
+          <circle class="node node--core" cx="200" cy="160" r="22"/>
+          <text class="label label--core" x="200" y="164" text-anchor="middle">FB</text>
+
+          <circle class="node" cx="70" cy="70" r="11"/>
+          <text class="label" x="70" y="52" text-anchor="middle">Laravel</text>
+
+          <circle class="node" cx="330" cy="70" r="11"/>
+          <text class="label" x="330" y="52" text-anchor="middle">Oracle</text>
+
+          <circle class="node" cx="60" cy="250" r="11"/>
+          <text class="label" x="60" y="278" text-anchor="middle">Docker</text>
+
+          <circle class="node" cx="340" cy="250" r="11"/>
+          <text class="label" x="340" y="278" text-anchor="middle">Java</text>
+
+          <circle class="node" cx="200" cy="40" r="11"/>
+          <text class="label" x="200" y="22" text-anchor="middle">HTML5</text>
+
+          <circle class="node" cx="200" cy="285" r="11"/>
+          <text class="label" x="200" y="311" text-anchor="middle">CSS3</text>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <main id="konten">
+
+    <section id="tentang" aria-labelledby="judul-tentang">
+      <h2 id="judul-tentang">Tentang saya</h2>
+
+      <div class="window">
+        <div class="window__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <b>tentang.txt</b>
+        </div>
+        <div class="window__body">
+          <p>
+            Saya mahasiswa Teknik Informatika angkatan 2024 di Universitas Muhammadiyah Malang.
+            Bidang minat saya adalah jaringan komputer, dan saat ini saya sedang mendalami
+            keamanan siber (cyber security).
+          </p>
+          <p>
+            Di sela itu, saya mengerjakan proyek aplikasi web dan basis data, seperti sistem
+            inventaris dan platform penjualan game. Saya juga tertarik pada kewirausahaan digital.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pendidikan" aria-labelledby="judul-pendidikan">
+      <h2 id="judul-pendidikan">Pendidikan</h2>
+
+      <div class="grid-2">
+        <article class="panel">
+          <h3>Universitas Muhammadiyah Malang</h3>
+          <p>S1 Teknik Informatika</p>
+          <dl class="facts">
+            <div>
+              <dt>Angkatan</dt>
+              <dd><time datetime="2024">2024</time></dd>
+            </div>
+            <div>
+              <dt>IPK</dt>
+              <dd>3,8</dd>
+            </div>
+          </dl>
+        </article>
+
+        <article class="panel">
+          <h3>SMAN 1 Besuki</h3>
+          <p>Sekolah Menengah Atas</p>
+          <h3>SMPN 3 Besuki</h3>
+          <p>Sekolah Menengah Pertama</p>
+          <h3>SDN 2 Besuki</h3>
+          <p>Sekolah Dasar </p>
+        </article>
+        
+      </div>
+    </section>
+
+        <section id="keahlian" aria-labelledby="judul-keahlian">
+      <h2 id="judul-keahlian">Keahlian</h2>
+
+      <div class="stack">
+        <div class="layer">
+          <h3>Jaringan</h3>
+          <ul class="chips">
+            <li>Cisco Packet Tracer</li>
+          </ul>
+        </div>
+
+        <div class="layer">
+          <h3>Aplikasi</h3>
+          <ul class="chips">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div class="layer">
+          <h3>Data</h3>
+          <ul class="chips">
+            <li>Oracle Database</li>
+            <li>SQL &amp; PL/SQL</li>
+            <li>Oracle APEX</li>
+            <li>Perancangan ERD</li>
+            <li>Struktur data</li>
+          </ul>
+        </div>
+
+        <div class="layer">
+          <h3>Infrastruktur</h3>
+          <ul class="chips">
+            <li>Docker</li>
+            <li>Oracle SQL Developer</li>
+            <li>Ubuntu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyek" aria-labelledby="judul-proyek">
+      <h2 id="judul-proyek">Proyek</h2>
+
+      <article class="window project">
+        <div class="window__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <b>gamehub</b>
+        </div>
+        <div class="window__body">
+          <header>
+            <h3>GameHub</h3>
+            <p class="project__type">Proyek kelompok, platform penjualan game digital</p>
+          </header>
+
+          <p>
+            GameHub adalah platform penjualan game digital berbasis Laravel dengan Oracle
+            sebagai basis datanya. Pada proyek ini saya bertanggung jawab atas perancangan
+            basis data: ERD, normalisasi, struktur tabel, dan relasi antarkunci, serta
+            menuliskannya dalam laporan akhir.
+          </p>
+
+          <dl class="stats">
+            <div>
+              <dt>Tabel</dt>
+              <dd>14</dd>
+            </div>
+            <div>
+              <dt>Basis data</dt>
+              <dd>Oracle XE 21c</dd>
+            </div>
+            <div>
+              <dt>Lingkungan</dt>
+              <dd>Docker</dd>
+            </div>
+          </dl>
+
+          <ul class="chips">
+            <li>Laravel</li>
+            <li>Oracle XE 21c</li>
+            <li>Docker</li>
+            <li>OCI8</li>
+          </ul>
+
+          <!-- Ganti href dengan tautan repositori GitHub proyek, jika ada -->
+          <p><a class="button" href="#kontak">Lihat tautan proyek</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section id="pengalaman" aria-labelledby="judul-pengalaman">
+      <h2 id="judul-pengalaman">Pengalaman organisasi</h2>
+
+      <article class="panel">
+        <h3>Sekretaris Kelompok KKN</h3>
+        <p class="panel__meta">Kuliah Kerja Nyata (KKN), Universitas Muhammadiyah Malang</p>
+        <p>
+          Mengelola administrasi kelompok, termasuk menyusun dokumen struktur organisasi
+          dan proposal sponsorship.
+        </p>
+      </article>
+
+      <article class="panel">
+        <h3>Ketua Bidang Publikasi dan Dokumentasi OSIS</h3>
+        <p class="panel__meta">Organisasi Siswa Intra Sekolah, SMA Negeri 1 Besuki</p>
+        <p>
+         Mengoordinasikan publikasi kegiatan sekolah dan menjadi penghubung dengan pihak luar.
+        </p>
+      </article>
+    </section>
+
+    <section id="kontak" aria-labelledby="judul-kontak">
+      <h2 id="judul-kontak">Kontak</h2>
+      <p>Terbuka untuk diskusi proyek, kolaborasi, dan peluang magang.</p>
+
+      <!-- Ganti semua tautan di bawah dengan kontak asli -->
+      <address class="panel">
+        <dl class="contact">
+          <div>
+            <dt>Instagram</dt>
+            <dd><a href="https://www.instagram.com/username">instagram.com/frllbyptr</a></dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:fi200706@gmail.com">fi200706@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/FarelIrw">github.com/FarelIrw</a></dd>
+          </div>
+          <div>
+            <dt>LinkedIn</dt>
+            <dd><a href="www.linkedin.com/in/farelirawan843">linkedin.com/in/farel-irawan843</a></dd>
+          </div>
+        </dl>
+      </address>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <time datetime="2026">2026</time> Farel Bayuputra Irawan. Dibuat dengan HTML5 dan CSS murni.</p>
+  </footer>
+</body>
+</html>
